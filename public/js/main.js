@@ -1,5 +1,5 @@
 var BookApp = function(options){
-	var NUMBER_OF_BOOKS = 100000,
+	var NUMBER_OF_BOOKS = 1000000,
 		itemsRendered = 100,
 		apiPath = options.apiPath,
 		templateSelector = options.templateSelector,
