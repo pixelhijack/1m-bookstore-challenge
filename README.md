@@ -15,11 +15,11 @@ Architectural considerations
 - The first KISS iteration which fitted into the 4 hours use a native approach with jQuery and Underscore for quicker development (but you really not need jQuery), built upon HTML5 Boilerplate, served with http-server
 - The implementation followed a classical MVC pattern, much like how it would be with Backbone.js - with all the problems of this approach. This is how we wrote JavaScript a few years ago
 - I would love to show other solutions, for example:
--- Node / Express to serve static files & for a real API request for the books
--- Angular.js would illustrate how badly 2-way data bindings and long ng-lists perform on large set of items
--- a real Backbone.js would be almost like this, but nicer event bindings
--- React + Redux + Immutable.js + ES6: this would be a perfect example to show how performant virtual dom diffing when re-rendering only the changed items on filtering / sorting, also to demonstrate a much more declarative functional style and how immutable models make life easier
--- MobX, Rx.js and observables: left as a dream
+	* Node / Express to serve static files & for a real API request for the books
+	* Angular.js would illustrate how badly 2-way data bindings and long ng-lists perform on large set of items
+	* a real Backbone.js would be almost like this, but nicer event bindings
+	* React + Redux + Immutable.js + ES6: this would be a perfect example to show how performant virtual dom diffing when re-rendering only the changed items on filtering / sorting, also to demonstrate a much more declarative functional style and how immutable models make life easier
+	* MobX, Rx.js and observables: left as a dream
 
 The implementation
 -------------
