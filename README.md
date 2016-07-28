@@ -5,7 +5,7 @@ Usage
 -------------
 ```
 npm install
-node node_modules/http-server/bin/http-server -a localhost
+npm run server
 ```
 check localhost:8080
 
